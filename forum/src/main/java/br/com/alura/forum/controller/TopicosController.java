@@ -30,8 +30,8 @@ import br.com.alura.forum.controller.dto.TopicoDto;
 import br.com.alura.forum.controller.form.AtualizacaoTopicoForm;
 import br.com.alura.forum.controller.form.TopicoForm;
 import br.com.alura.forum.modelo.Topico;
+import br.com.alura.forum.repository.CursoRepository;
 import br.com.alura.forum.repository.TopicoRepsitory;
-import br.com.alura.forum.respository.CursoRepository;
 
 @RestController
 @RequestMapping("/topicos")
