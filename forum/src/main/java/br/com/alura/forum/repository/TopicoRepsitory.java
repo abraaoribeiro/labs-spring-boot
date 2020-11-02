@@ -8,7 +8,8 @@ import br.com.alura.forum.modelo.Topico;
 
 public interface TopicoRepsitory extends JpaRepository<Topico, Long> {
 
-	List<Topico> findByCurso_Nome(String nomeCurso);
+
+	List<Topico> findByCursoNome(String nomeCurso);
 
 	
 }
